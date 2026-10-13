@@ -1,0 +1,37 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Application runtime configs (persisted locally per user)
+config.json
+
+# Video media files (prevent committing large video files to repo)
+*.mov
+*.mp4
+*.m4v
+*.mkv
+*.avi
+*.wmv
+*.webm
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE and OS metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Logs & temporary files
+*.log
+*.tmp
